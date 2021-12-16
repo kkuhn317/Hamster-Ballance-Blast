@@ -1,0 +1,102 @@
+Here is how custom levels will work:
+
+First a header:
+-----------
+LevelName
+Author
+VersionNumber
+-----------
+
+Next, Level specific settings:
+-----------
+GameStyle
+StartBall
+CameraStyle
+LevelScale
+-----------
+For the first and third, they will be a number where:
+0 - hamsterball
+1 - ballance
+2 - marble blast gold
+
+For the second, it'll be a number where:
+0=HB, 1=WB, 2=SB, 3=PB, 4=M
+
+LevelScale is a float number that determines the relative size of the entire level compared to the ball
+
+The next lines are dependent on the gamestyle chosen:
+(See globalVaribles.cs for specifics)
+Hamsterball Style Settings:
+-----------
+BGColor
+FloorColor1
+FloorColor2
+WallColor
+Music
+-----------
+Colors will be stored as a hex value like this: #123abc
+
+Ballance Style Settings:
+-----------
+Skybox
+Music
+-----------
+
+Marble Blast Style Settings:
+-----------
+TileColor
+Music
+-----------
+
+Note: The Start of the level is at 0,0,0
+Note: For all position and scale numbers that follow, decimal numbers are allowed, but they won't be supported by the editor
+
+Next, all big ground blocks:
+-----------
+posx,posy,posz:sizex,sizey,sizez
+posx,posy,posz:sizex,sizey,sizez
+etc.
+-----------
+it has the position, followed by the size of the block.
+(the position is the center of the block)
+
+Next, all individual objects:
+-----------
+style:id:posx,posy,posz:rotation
+style:id:posx,posy,posz:rotation
+etc.
+-----------
+style is the specific list of objects that the object comes from:
+0=basic
+1=HB
+2=Ballance
+3=MBG
+
+id is the name of the specific type of object
+posx,posy,posz is the position
+rotation is a number where
+0=0, 1=90, 2=180, 3=270
+
+Before Version 1.4, the id was the location number of that object in the level editor. Here are the old id numbers and what they coorespond to:
+
+Basic Blocks:
+0-SteepSlope
+1-ShallowSlope
+2-CornerSlope
+
+Hamsterball:
+0-Goal
+1-8Ball
+
+Ballance:
+0-HBTransform
+1-WoodTransform
+2-StoneTransform
+3-PaperTransform
+4-MarbleTransform
+5-Box
+6-SmallBridge
+7-HalfpipeHole
+
+Marble Blast:
+0-Goal
