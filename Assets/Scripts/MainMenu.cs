@@ -58,6 +58,18 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void onOpenEditorLevel(string levelName) {
+        globalVariables.levelScale = 1;
+        globalVariables.oneLifeMode = false;
+        // Load the text file level
+    }
+
+    public void onOpenSceneLevel(string levelName) {
+        globalVariables.levelScale = 1;
+        globalVariables.oneLifeMode = false;
+        SceneManager.LoadScene(levelName);
+    }
+
     public void OpenFileExplorer()
     {
         string A = Application.persistentDataPath + "/levels";

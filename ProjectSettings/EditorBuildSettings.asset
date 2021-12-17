@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: f334e09d9da7ebc418ac3f0994975ba5
   - enabled: 1
-    path: Assets/Scenes/Main Game/Hamsterball.unity
+    path: Assets/Scenes/Main Game/Scene Levels/hamsterball.unity
     guid: 55c85adede4b6e744b5016ede1d0df81
   - enabled: 1
-    path: Assets/Scenes/Main Game/Marble Blast.unity
+    path: Assets/Scenes/Main Game/Scene Levels/marbleblast.unity
     guid: 1ce3704cad094bd42863f9ef77f239c9
   - enabled: 1
-    path: Assets/Scenes/Main Game/Ballance.unity
+    path: Assets/Scenes/Main Game/Scene Levels/ballance.unity
     guid: 1581adc747524d345a90a0b9494c0636
   - enabled: 1
     path: Assets/Scenes/Main Game/Win Screen.unity
