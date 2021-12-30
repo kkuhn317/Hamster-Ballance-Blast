@@ -16,7 +16,7 @@ public class EditorLogic : MonoBehaviour
     public GameObject cam;
     public GameObject menu;
 
-    private float movmentRate = .025f;
+    private float movementRate = .025f;
     private float movementRateCounter = .025f;
 
     private System.Type[] excludedScriptComponents = {typeof(teleporter), typeof(autoColorer), typeof(blockTexturingValues)};   // these scripts will not be deleted in the editor
@@ -50,7 +50,7 @@ public class EditorLogic : MonoBehaviour
     UnityEngine.Object[] ballanceObjects;
     UnityEngine.Object[] marbleBlastObjects;
 
-    // These three arrylists store the objects in a similar way to how they are stored in a file
+    // These three arraylists store the objects in a similar way to how they are stored in a file
     private ArrayList copiedGround = new ArrayList();
     private ArrayList copiedTexturableObjects = new ArrayList();
     private ArrayList copiedNormalObjects = new ArrayList();
@@ -113,7 +113,7 @@ public class EditorLogic : MonoBehaviour
                 movementVector.z += -1;
             }
 
-            movementRateCounter += movmentRate;
+            movementRateCounter += movementRate;
         }
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) {
@@ -181,6 +181,30 @@ public class EditorLogic : MonoBehaviour
     public void rotateObject() {
         ArrayList rotatedObjects = new ArrayList();
 
+        foreach(Transform child in placedObjectHolder.transform) {
+            if (child.position == pointer.transform.position && !rotatedObjects.Contains(child)) {
+                float prevRotation = child.rotation.eulerAngles.y;
+                child.rotation = Quaternion.Euler(new Vector3(0, prevRotation + 90, 0));
+                rotatedObjects.Add(child);
+            }
+        }
+        foreach(Transform child in texturableObjectHolder.transform) {
+            if (child.position == pointer.transform.position && !rotatedObjects.Contains(child)) {
+                float prevRotation = child.rotation.eulerAngles.y;
+                child.rotation = Quaternion.Euler(new Vector3(0, prevRotation + 90, 0));
+                if (child.GetComponent<blockTexturingValues>()) {
+                    applyTexturesToBlock(child.gameObject);
+                } else {
+                    applyTexturesToSlope(child.gameObject);
+                }
+                rotatedObjects.Add(child);
+            }
+        }
+
+        if (rotatedObjects.Count > 0) {
+            return;
+        }
+
         Collider[] collidedObjects = objectsIntersect();
         foreach(Collider col in collidedObjects) {
             Transform child = col.gameObject.transform;
@@ -197,23 +221,7 @@ public class EditorLogic : MonoBehaviour
             }
         }
 
-        foreach(Transform child in placedObjectHolder.transform) {
-            if (child.position == pointer.transform.position && !rotatedObjects.Contains(child)) {
-                float prevRotation = child.rotation.eulerAngles.y;
-                child.rotation = Quaternion.Euler(new Vector3(0, prevRotation + 90, 0));
-            }
-        }
-        foreach(Transform child in texturableObjectHolder.transform) {
-            if (child.position == pointer.transform.position && !rotatedObjects.Contains(child)) {
-                float prevRotation = child.rotation.eulerAngles.y;
-                child.rotation = Quaternion.Euler(new Vector3(0, prevRotation + 90, 0));
-                if (child.GetComponent<blockTexturingValues>()) {
-                    applyTexturesToBlock(child.gameObject);
-                } else {
-                    applyTexturesToSlope(child.gameObject);
-                }
-            }
-        }
+        
     }
 
     private void copySelection() {
@@ -446,6 +454,12 @@ public class EditorLogic : MonoBehaviour
         }
 
         placingGround = !placingGround;
+    }
+
+    public void createTallPlatform() {
+        pointer.transform.position = new Vector3(pointer.transform.position.x, pointer.transform.position.y - 100, pointer.transform.position.z);
+        chooseGroundLocation();
+        pointer.transform.position = new Vector3(pointer.transform.position.x, pointer.transform.position.y + 100, pointer.transform.position.z);
     }
 
     public void updateGroundPreview() {
@@ -685,7 +699,6 @@ public class EditorLogic : MonoBehaviour
         }
     }
 
-    // TODO eventually: make slopes in marble blast theme connect with the flat ground
     public void applyTexturesToSlope(GameObject slope) {
         // 0, 2, 3 are walls, 1 is top, 4 is bottom
         // Steep slope is 0:SteepSlope, shallow slope is 0:ShallowSlope, corner slope is 0:CornerSlope
@@ -931,6 +944,10 @@ public class EditorLogic : MonoBehaviour
             }
             else
                 chooseGroundLocation();
+        }
+
+        if (Input.GetKeyDown(KeyCode.T)) {
+            createTallPlatform();
         }
 
         if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)) {

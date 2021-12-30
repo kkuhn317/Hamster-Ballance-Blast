@@ -22,6 +22,8 @@ public static class globalVariables
     public static int gameStyle = 0;
     public static int startingBall = 0;
     public static int cameraStyle = 0;
+    public static bool deathPlaneHeightActive = false;
+    public static decimal deathPlaneHeight = 0;
     public static decimal levelScale = 1;
     public static int song = 0;
     /* Song decoding:

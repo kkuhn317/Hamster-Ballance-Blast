@@ -24,6 +24,8 @@ public class LevelEditorMenu : MonoBehaviour
         levelStartBall.value = globalVariables.startingBall;
         levelCameraStyle.value = globalVariables.cameraStyle;
         extraColor.text = "#" + ColorUtility.ToHtmlStringRGB(globalVariables.extraColor);
+        if (globalVariables.deathPlaneHeightActive)
+            deathPlaneHeight.text = globalVariables.deathPlaneHeight.ToString();
         levelScale.text = globalVariables.levelScale.ToString();
         
         switch (globalVariables.gameStyle) {
@@ -59,6 +61,7 @@ public class LevelEditorMenu : MonoBehaviour
     public Dropdown levelStartBall;
     public Dropdown levelCameraStyle;
     public InputField extraColor;
+    public InputField deathPlaneHeight;
     public InputField levelScale;
 
     [Header("Hamsterball Menu Variables")]
@@ -119,6 +122,15 @@ public class LevelEditorMenu : MonoBehaviour
         editorLogic.updateTextures();
     }
 
+    public void onDeathPlaneHeightChange() {
+        try {
+            globalVariables.deathPlaneHeight = decimal.Parse(deathPlaneHeight.text);
+            globalVariables.deathPlaneHeightActive = true;
+        } catch {
+            globalVariables.deathPlaneHeightActive = false;
+        }
+    }
+
     public void onLevelScaleChange() {
         try {
             globalVariables.levelScale = decimal.Parse(levelScale.text);
@@ -163,6 +175,8 @@ public class LevelEditorMenu : MonoBehaviour
             writer.WriteLine(globalVariables.startingBall);
             writer.WriteLine(globalVariables.cameraStyle);
             writer.WriteLine("#" + ColorUtility.ToHtmlStringRGB(globalVariables.extraColor));
+            if (globalVariables.deathPlaneHeightActive)
+                writer.WriteLine("*dph " + globalVariables.deathPlaneHeight);
             writer.WriteLine(globalVariables.levelScale);
 
             switch (globalVariables.gameStyle) {

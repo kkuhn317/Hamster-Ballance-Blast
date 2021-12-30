@@ -68,7 +68,16 @@ public class LevelLoader : MonoBehaviour
             nextLine = reader.ReadLine();
         }
 
+        // if nextline starts with "*" then it's a special setting (only deathplaneheight for now)
+        globalVariables.deathPlaneHeightActive = false;
+        if (nextLine.StartsWith("*")) {
+            globalVariables.deathPlaneHeight = decimal.Parse(nextLine.Split(' ')[1]);
+            globalVariables.deathPlaneHeightActive = true;
+            nextLine = reader.ReadLine();
+        }
+
         globalVariables.levelScale = decimal.Parse(nextLine);
+        
 
         switch (globalVariables.gameStyle) {
             case 0: // Hamsterball settings
@@ -256,7 +265,12 @@ public class LevelLoader : MonoBehaviour
                 }
 
             }
-            globalVariables.respawnHeight = lowestBlockHeight - 10;
+            if (globalVariables.deathPlaneHeightActive) {
+                globalVariables.respawnHeight = (float)globalVariables.deathPlaneHeight;
+            }
+            else {
+                globalVariables.respawnHeight = lowestBlockHeight - 10;
+            }
             if (globalVariables.gameStyle == 1) {
                 if (globalVariables.skybox == 11) {
                     Instantiate((GameObject)Resources.Load("Cloud Layers/Tornado"), new Vector3(0, lowestBlockHeight + 10, 0), Quaternion.Euler(-90, 0, 0));

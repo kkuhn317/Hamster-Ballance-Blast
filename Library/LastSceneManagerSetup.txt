@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Main Game/Scene Levels/hamsterball.unity
+- path: Assets/Scenes/Custom/Level Editor.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
