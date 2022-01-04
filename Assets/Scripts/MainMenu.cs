@@ -62,6 +62,9 @@ public class MainMenu : MonoBehaviour
         globalVariables.levelScale = 1;
         globalVariables.oneLifeMode = false;
         // Load the text file level
+        globalVariables.filePath = levelName;
+        SceneManager.LoadScene("Campaign Level");
+        
     }
 
     public void onOpenSceneLevel(string levelName) {

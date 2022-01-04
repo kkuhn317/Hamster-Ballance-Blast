@@ -8,6 +8,10 @@ using UnityEngine;
 public class LevelLoader : MonoBehaviour
 {
     public bool editorMode = false;
+    public bool mainGameLevel = false;
+    public StreamReader customReader;
+    public string[] campaignLevelLines;
+    public int lineNum = 0;
     private EditorLogic editorLogic;
     public GameObject cam;
     public GameObject normalSongPlayer;
@@ -42,30 +46,37 @@ public class LevelLoader : MonoBehaviour
 
         // TIME TO LOAD A CUSTOM LEVEL!!!!!! yeaaaaa
 
-        string levelsFolder = Application.persistentDataPath + "/levels";
-        string path = levelsFolder + "/" + globalVariables.filePath + ".txt";
+        if (!mainGameLevel) {
+            string levelsFolder = Application.persistentDataPath + "/levels";
+            string path = levelsFolder + "/" + globalVariables.filePath + ".txt";
+            customReader = new StreamReader(path);
+        } else {
+            TextAsset textFile = (TextAsset)Resources.Load("Campaign/" + globalVariables.filePath);
+            campaignLevelLines = textFile.text.Split('\n');
 
-        StreamReader reader = new StreamReader(path);
+        }
+
+        
 
         // This first stuff is basically the opposite of the onSave method
         // (in LevelEditorMenu)
 
         // Read header
-        globalVariables.levelName = reader.ReadLine();
-        globalVariables.levelCreator = reader.ReadLine();
-        Version version = Version.Parse(reader.ReadLine()); // Version number
+        globalVariables.levelName = readNextLine();
+        globalVariables.levelCreator = readNextLine();
+        Version version = Version.Parse(readNextLine()); // Version number
         
         // level specific settings
-        globalVariables.gameStyle = Int32.Parse(reader.ReadLine());
-        globalVariables.startingBall = Int32.Parse(reader.ReadLine());
-        globalVariables.cameraStyle = Int32.Parse(reader.ReadLine());
+        globalVariables.gameStyle = Int32.Parse(readNextLine());
+        globalVariables.startingBall = Int32.Parse(readNextLine());
+        globalVariables.cameraStyle = Int32.Parse(readNextLine());
 
-        string nextLine = reader.ReadLine();
+        string nextLine = readNextLine();
 
         // if nextline starts with "#" then it's a color, meaning its the new extra color field
         if (nextLine.StartsWith("#")) {
             ColorUtility.TryParseHtmlString(nextLine, out globalVariables.extraColor);
-            nextLine = reader.ReadLine();
+            nextLine = readNextLine();
         }
 
         // if nextline starts with "*" then it's a special setting (only deathplaneheight for now)
@@ -73,7 +84,7 @@ public class LevelLoader : MonoBehaviour
         if (nextLine.StartsWith("*")) {
             globalVariables.deathPlaneHeight = decimal.Parse(nextLine.Split(' ')[1]);
             globalVariables.deathPlaneHeightActive = true;
-            nextLine = reader.ReadLine();
+            nextLine = readNextLine();
         }
 
         globalVariables.levelScale = decimal.Parse(nextLine);
@@ -81,24 +92,24 @@ public class LevelLoader : MonoBehaviour
 
         switch (globalVariables.gameStyle) {
             case 0: // Hamsterball settings
-                ColorUtility.TryParseHtmlString(reader.ReadLine(), out globalVariables.backgroundColor);
-                ColorUtility.TryParseHtmlString(reader.ReadLine(), out globalVariables.floorColor1);
-                ColorUtility.TryParseHtmlString(reader.ReadLine(), out globalVariables.floorColor2);
-                ColorUtility.TryParseHtmlString(reader.ReadLine(), out globalVariables.wallColor);
+                ColorUtility.TryParseHtmlString(readNextLine(), out globalVariables.backgroundColor);
+                ColorUtility.TryParseHtmlString(readNextLine(), out globalVariables.floorColor1);
+                ColorUtility.TryParseHtmlString(readNextLine(), out globalVariables.floorColor2);
+                ColorUtility.TryParseHtmlString(readNextLine(), out globalVariables.wallColor);
                 break;
             case 1: // Ballance settings
-                globalVariables.skybox = Int32.Parse(reader.ReadLine());
+                globalVariables.skybox = Int32.Parse(readNextLine());
                 break;
             case 2: // Marble Blast settings
-                globalVariables.floorTexture = Int32.Parse(reader.ReadLine());
+                globalVariables.floorTexture = Int32.Parse(readNextLine());
                 break;
         }
-        globalVariables.song = Int32.Parse(reader.ReadLine());
+        globalVariables.song = Int32.Parse(readNextLine());
 
         // now here's where things change
 
         // load ground objects
-        string blockInfo = reader.ReadLine();
+        string blockInfo = readNextLine();
         while (blockInfo != null && blockInfo.Count(x => x == ':') == 1) {
             GameObject ground = Instantiate(editorLogic.groundPrefab);
             string[] posAndScale = blockInfo.Split(':');
@@ -107,7 +118,7 @@ public class LevelLoader : MonoBehaviour
             ground.transform.position = new Vector3(float.Parse(pos[0]), float.Parse(pos[1]), float.Parse(pos[2]));
             ground.transform.localScale = new Vector3(float.Parse(scale[0]), float.Parse(scale[1]), float.Parse(scale[2]));
             ground.transform.SetParent(editorLogic.groundObjectHolder.transform);
-            blockInfo = reader.ReadLine();
+            blockInfo = readNextLine();
         }
 
         // load normal objects
@@ -166,10 +177,11 @@ public class LevelLoader : MonoBehaviour
                 locker.correctRot = Quaternion.Euler(new Vector3(0, 90 * Int32.Parse(objectData[3]), 0));
             }
 
-            blockInfo = reader.ReadLine();
+            blockInfo = readNextLine();
         }
 
-        reader.Close();
+        if (!mainGameLevel)
+            customReader.Close();
 
         // Apply song
         if (!editorMode) {
@@ -290,6 +302,16 @@ public class LevelLoader : MonoBehaviour
         if (!editorMode)
             FindObjectOfType<CustomLevelPlayer>().OnLoadingDone();
         
+    }
+
+    string readNextLine() {
+        if (!mainGameLevel) {
+            return customReader.ReadLine();
+        } else {
+            string line = campaignLevelLines[lineNum];
+            lineNum++;
+            return line;
+        }
     }
 
     GameObject getGameObjectByName (UnityEngine.Object[] array, string name)

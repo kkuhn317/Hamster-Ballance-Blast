@@ -93,6 +93,7 @@
      <None Include="Assets\Scripts\customleveldetails.txt" />
      <None Include="Assets\models\Hamsterball (3ds max)\_ource Meshes\flag\FlagDeformationReverse.shader" />
      <None Include="Assets\models\Hamsterball (3ds max)\_ource Meshes\flag\FlagDeformation.shader" />
+     <None Include="Assets\Resources\Campaign\Challenge.txt" />
      <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

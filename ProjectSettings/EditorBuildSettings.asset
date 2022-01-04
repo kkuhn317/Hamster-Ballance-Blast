@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Custom/Win Custom Level.unity
     guid: 1639a317a9a60a1469b38771d5c96171
+  - enabled: 1
+    path: Assets/Scenes/Main Game/Campaign Level.unity
+    guid: acf60479dc82b0e45a9d6bcd0d39ba2a
   - enabled: 0
     path: Assets/Scenes/Unused/Warm up race.unity
     guid: eea05a34a6978c648b86461c5bb03f5f
