@@ -414,8 +414,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169860448}
-        m_TargetAssemblyTypeName: CustomLevelPlayer, Assembly-CSharp
+      - m_Target: {fileID: 2022279569}
+        m_TargetAssemblyTypeName: pauseMenu, Assembly-CSharp
         m_MethodName: reloadLevelButton
         m_Mode: 1
         m_Arguments:
@@ -627,8 +627,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169860448}
-        m_TargetAssemblyTypeName: CustomLevelPlayer, Assembly-CSharp
+      - m_Target: {fileID: 2022279569}
+        m_TargetAssemblyTypeName: pauseMenu, Assembly-CSharp
         m_MethodName: onQuitButton
         m_Mode: 1
         m_Arguments:
@@ -760,8 +760,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169860448}
-        m_TargetAssemblyTypeName: CustomLevelPlayer, Assembly-CSharp
+      - m_Target: {fileID: 2022279569}
+        m_TargetAssemblyTypeName: pauseMenu, Assembly-CSharp
         m_MethodName: onEditButton
         m_Mode: 1
         m_Arguments:
@@ -985,12 +985,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5306afc77dc30c44a8bd4b715454093c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 298338492}
   whiteFade: {fileID: 5485977705402255258, guid: 565358414b04bbd428c8ba2135d1266d, type: 3}
   MBOOB: {fileID: 5655910553612332775, guid: 35dc7eae3c791eb4f95ea85a4deb2a66, type: 3}
   HBStartCutscene: {fileID: 2630082201736627340, guid: 6758a36436d50154f8fff8828e5c632f, type: 3}
   lightningBall: {fileID: 8539017387991412007, guid: 4d5c56c668afb6845adca62850e7fb07, type: 3}
   MBStartCutscene: {fileID: 1995879365165384935, guid: 4ffe9a301821dc048b23156d5d653ff2, type: 3}
+  timers: []
+  inStartingCutscene: 0
+  isFallingOff: 0
 --- !u!4 &1169860449
 Transform:
   m_ObjectHideFlags: 0
@@ -1372,8 +1374,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169860448}
-        m_TargetAssemblyTypeName: CustomLevelPlayer, Assembly-CSharp
+      - m_Target: {fileID: 2022279569}
+        m_TargetAssemblyTypeName: pauseMenu, Assembly-CSharp
         m_MethodName: onResumeButton
         m_Mode: 1
         m_Arguments:
@@ -1454,6 +1456,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   editorMode: 0
+  mainGameLevel: 0
+  campaignLevelLines: []
+  lineNum: 0
   cam: {fileID: 0}
   normalSongPlayer: {fileID: 3892133571588165098, guid: 774a511fd885cdb43b1c686e2fd9d265, type: 3}
   ballanceSongPlayer: {fileID: 2309638114675657793, guid: 4f034185f76c8b842aabad71d204c6de, type: 3}
@@ -1712,6 +1717,7 @@ GameObject:
   - component: {fileID: 2022279567}
   - component: {fileID: 2022279566}
   - component: {fileID: 2022279565}
+  - component: {fileID: 2022279569}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1800,3 +1806,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2022279569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022279564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c8c9b060b8df2b48a800a4e056622d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 298338492}
+  levelPlayer: {fileID: 1169860448}

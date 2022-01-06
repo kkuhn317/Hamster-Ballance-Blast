@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class CustomLevelPlayer : MonoBehaviour
 {
 
-    public GameObject pauseMenu;
     GameObject mainBall;
     public GameObject whiteFade;
 
@@ -16,13 +15,17 @@ public class CustomLevelPlayer : MonoBehaviour
     public GameObject lightningBall;
     private GameObject lightningBallClone;
     public GameObject MBStartCutscene;
-    private GameObject[] timers;
+
+    [HideInInspector] // Hides var below
+    public GameObject[] timers;
 
     private AudioSource audioSource;
 
-    bool inStartingCutscene = false;
+    [HideInInspector] // Hides var below
+    public bool inStartingCutscene = false;
 
-    bool isFallingOff = false;
+    [HideInInspector] // Hides var below
+    public bool isFallingOff = false;
 
     // Start is called before the first frame update
     void Start()
@@ -124,13 +127,6 @@ public class CustomLevelPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
             reloadCheckpoint();
 
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            if (pauseMenu.activeSelf)
-                onResumeButton();
-            else
-                pauseGame();
-        }
-
         var objects = GameObject.FindGameObjectsWithTag("Player");
         var objectCount = objects.Length;
         foreach (var obj in objects) {
@@ -142,59 +138,9 @@ public class CustomLevelPlayer : MonoBehaviour
         
     }
 
-    public void pauseGame() {
-        if (!isFallingOff) {
-            getNewTimers();
-            foreach (GameObject timer in timers) {
-                timer.GetComponent<timer>().timeFinish();
-            }
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            Time.timeScale = 0;
-            pauseMenu.SetActive(true);
-        }
-    }
 
     public void getNewTimers() {
         timers = GameObject.FindGameObjectsWithTag("levelTimer");
-    }
-
-    public void onResumeButton() {
-        Time.timeScale = 1;
-        Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = false;
-        pauseMenu.SetActive(false);
-        if (!inStartingCutscene) {
-            foreach (GameObject timer in timers) {
-                timer.GetComponent<timer>().timeResume();
-            }
-        }
-    }
-
-    public void onEditButton() {
-        stopMusic();
-        resetCheckpoints();
-        Time.timeScale = 1;
-        SceneManager.LoadScene("Level Editor");
-    }
-
-    public void onQuitButton() {
-        stopMusic();
-        resetCheckpoints();
-        Time.timeScale = 1;
-        SceneManager.LoadScene(0);
-    }
-
-    public void reloadLevelButton()
-    {
-        Time.timeScale = 1;
-        resetCheckpoints();
-        // Get rid of timers so they don't carry over
-        foreach (GameObject timer in timers) {
-            Destroy(timer.transform.parent.gameObject);
-        }
-        Scene loadedLevel = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(loadedLevel.buildIndex);
     }
 
     void reloadCheckpoint()
@@ -204,14 +150,14 @@ public class CustomLevelPlayer : MonoBehaviour
         SceneManager.LoadScene(loadedLevel.buildIndex);
     }
 
-    void resetCheckpoints() {
+    public void resetCheckpoints() {
         globalVariables.checkpointLoc = new Vector3(0,0,0);
         globalVariables.checkpointNum = -1;
         globalVariables.savedBallType = -1;
     }
 
 
-    void stopMusic() {
+    public void stopMusic() {
         // Delete all music and ambience objects so that they don't play in the next scene
         GameObject[] musics = GameObject.FindGameObjectsWithTag ("musicPlayer");
         foreach(GameObject music in musics) {

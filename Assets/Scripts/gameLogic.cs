@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// DEPRECIATED: will use CustomLevelPlayer instead!
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +20,7 @@ public class gameLogic : MonoBehaviour
     private GameObject[] levelTimers;
     private GameObject[] timers;
     private AudioSource audioSource;
-    private bool isFallingOff;
+    public bool isFallingOff;
 
     public int gameStyle;
     public int cameraStyle;
@@ -173,6 +176,7 @@ public class gameLogic : MonoBehaviour
             reloadLevel();
         }
     }
+
 
     public void onFallOffLevel() {
         if (!isFallingOff) {

@@ -369,6 +369,7 @@
 "Assets/Scripts/Object AI/mineExplode.cs"
 "Assets/Scripts/Object AI/teleporter.cs"
 "Assets/Scripts/Object AI/Trapdoor.cs"
+"Assets/Scripts/pauseMenu.cs"
 "Assets/Scripts/positionLocker.cs"
 "Assets/Scripts/Powerups/powerup.cs"
 "Assets/Scripts/Powerups/powerupPanel.cs"
