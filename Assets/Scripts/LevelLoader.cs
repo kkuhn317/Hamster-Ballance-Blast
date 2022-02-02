@@ -285,9 +285,9 @@ public class LevelLoader : MonoBehaviour
             }
             if (globalVariables.gameStyle == 1) {
                 if (globalVariables.skybox == 11) {
-                    Instantiate((GameObject)Resources.Load("Cloud Layers/Tornado"), new Vector3(0, lowestBlockHeight + 10, 0), Quaternion.Euler(-90, 0, 0));
+                    Instantiate((GameObject)Resources.Load("Cloud Layers/Tornado"), new Vector3(0, globalVariables.respawnHeight, 0), Quaternion.Euler(-90, 0, 0));
                 } else {
-                    Instantiate((GameObject)Resources.Load("Cloud Layers/Normal"), new Vector3(0, lowestBlockHeight, 0), Quaternion.Euler(-90, 0, 0));
+                    Instantiate((GameObject)Resources.Load("Cloud Layers/Normal"), new Vector3(0, globalVariables.respawnHeight, 0), Quaternion.Euler(-90, 0, 0));
                 }
             }
         }

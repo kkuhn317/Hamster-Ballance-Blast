@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.23f1 (b50729e604a9) revision 11863849'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16145 MB
+OS: 'Windows 10 Pro; OS build 22000.469; Version 2009; 64bit' Language: 'en' Physical Memory: 16145 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/matt/OneDrive/Documents/GitHub/Hamster-Ballance-Blast
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55628
+50783
 Successfully changed project path to: C:/Users/matt/OneDrive/Documents/GitHub/Hamster-Ballance-Blast
 C:/Users/matt/OneDrive/Documents/GitHub/Hamster-Ballance-Blast
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.23f1 (b50729e604a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,165 +35,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001687 seconds.
+Registered in 0.002789 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 63.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.768 seconds
+- Completed reload, in  1.241 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1768ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002262 seconds.
+Registered in 0.003074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 62.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
+- Completed reload, in  1.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1216ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1431ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1034ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (414ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (542ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2834 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 190.4 MB.
-System memory in use after: 190.5 MB.
+System memory in use after: 190.6 MB.
 
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 3.317200 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.132700 ms MarkObjects: 2.769300 ms  DeleteObjects: 0.197100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Main Game/Scene Levels/hamsterball.unity
-  artifactKey: Guid(55c85adede4b6e744b5016ede1d0df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Game/Scene Levels/hamsterball.unity using Guid(55c85adede4b6e744b5016ede1d0df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27541d4ec2f822179b52dac11fdef0c2') in 0.011753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Scenes/Main Game/Campaign Level.unity
-  artifactKey: Guid(acf60479dc82b0e45a9d6bcd0d39ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Game/Campaign Level.unity using Guid(acf60479dc82b0e45a9d6bcd0d39ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420c2525fef2068eb767ce1a8278819f') in 0.006438 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002274 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Domain Reload Profiling:
-	ReloadAssembly (908ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (763ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.4 MB.
-System memory in use after: 187.6 MB.
-
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3269.
-Total: 3.096800 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.163200 ms MarkObjects: 2.581400 ms  DeleteObjects: 0.117400 ms)
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 3268.
+Total: 4.530000 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.200300 ms MarkObjects: 3.772900 ms  DeleteObjects: 0.256800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -208,14 +138,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 398.710231 seconds.
-  path: Assets/Scripts/pauseMenu.cs
-  artifactKey: Guid(6c8c9b060b8df2b48a800a4e056622d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/pauseMenu.cs using Guid(6c8c9b060b8df2b48a800a4e056622d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbab05adb3c7509e818d7f40f82fdd3e') in 0.039128 seconds 
+  path: Assets/Scripts/globalVariables.cs
+  artifactKey: Guid(36d0d09f7c3ad1247b08a952d9e3b489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/globalVariables.cs using Guid(36d0d09f7c3ad1247b08a952d9e3b489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8819c402ef05b531db9db675a0dd5422') in 0.054815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Scripts/LevelLoader.cs
+  artifactKey: Guid(564d3affbfb9c9a46a8bdf4c8083a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelLoader.cs using Guid(564d3affbfb9c9a46a8bdf4c8083a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8499205941c2457492d68c90649f4c') in 0.011197 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002400 seconds.
+Registered in 0.003382 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -223,172 +158,42 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  1.091 seconds
 Domain Reload Profiling:
-	ReloadAssembly (974ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (340ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.5 MB.
-System memory in use after: 187.7 MB.
-
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3272.
-Total: 4.249900 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.138800 ms MarkObjects: 3.733100 ms  DeleteObjects: 0.160700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 989.161971 seconds.
-  path: Assets/Scripts/gameLogic.cs
-  artifactKey: Guid(4eec5abfd3a00d240915690eac93aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/gameLogic.cs using Guid(4eec5abfd3a00d240915690eac93aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da5f61692774c61f2839f50a76f96f7') in 0.025462 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003003 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1108ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.7 MB.
-
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3274.
-Total: 3.849900 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.176000 ms MarkObjects: 3.201300 ms  DeleteObjects: 0.161600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3961.988197 seconds.
-  path: Assets/Scripts/gameLogic.cs
-  artifactKey: Guid(4eec5abfd3a00d240915690eac93aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/gameLogic.cs using Guid(4eec5abfd3a00d240915690eac93aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265d70c76d21961bf91b40a75ecb3aea') in 0.006034 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (821ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 187.5 MB.
 System memory in use after: 187.7 MB.
 
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3276.
-Total: 4.075000 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.130100 ms MarkObjects: 3.540600 ms  DeleteObjects: 0.198800 ms)
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 3.474600 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.141600 ms MarkObjects: 2.930400 ms  DeleteObjects: 0.187700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -402,9 +207,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 154.149147 seconds.
+  path: Assets/Scripts/LevelLoader.cs
+  artifactKey: Guid(564d3affbfb9c9a46a8bdf4c8083a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelLoader.cs using Guid(564d3affbfb9c9a46a8bdf4c8083a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80604ddf7a4ac6637c8c6b79531ea577') in 0.005673 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002416 seconds.
+Registered in 0.003302 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -412,42 +223,42 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  1.131 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1115ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (921ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (437ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (272ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (354ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 187.6 MB.
-System memory in use after: 187.8 MB.
+System memory in use after: 187.7 MB.
 
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3278.
-Total: 4.327200 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.109000 ms MarkObjects: 3.769100 ms  DeleteObjects: 0.261200 ms)
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 3.691300 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.174800 ms MarkObjects: 3.137700 ms  DeleteObjects: 0.150000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -463,168 +274,1789 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002744 seconds.
+Registered in 0.003331 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  1.650 seconds
 Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1651ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1407ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.6 MB.
+System memory in use after: 187.8 MB.
+
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3274.
+Total: 5.255100 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.237000 ms MarkObjects: 4.511400 ms  DeleteObjects: 0.198600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 574.654000 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b60b2d370102e7842dc1c7bcf3d0183') in 0.067628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.272591 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601ebb9ed21ed50a7e77c851b4703384') in 0.007697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.376633 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e18bff18bc2b871f1a6e8e83f867112') in 0.008046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606248 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f60dc1bb19d20c81e6e52a4491416') in 0.006044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.820299 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00739ca6aa86bf8d1f27f12376fb9e88') in 0.007166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.621837 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af593d02d059df2c2a35a18d0e3c3e44') in 0.008357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.655510 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d21ee309ef365bc21d46d0c5b4e7e8') in 0.005880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.384702 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610251dfa7b3e0815b4312f142b3c68d') in 0.005441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.388302 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd817aa91a162347a2a5c7cc26ce47986') in 0.005310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402099 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3506e671970790e0ef054ae0973569') in 0.006293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.400319 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9063e7d6ebbe160ea854281aa9faaca') in 0.005397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150161 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb2f27c1d681c6eafbf29727a212b15') in 0.065852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.087913 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aaf4292297091004be75d521fa5eca') in 0.006452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.172851 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1f0c58d44946c5e06888ff5a2ab048') in 0.005742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.352165 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a611081a7b490913ef33a0a8124b0d05') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.052694 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42852be455e32f63ba7da1bf44b5766') in 0.006425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015366 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dc73289b118d777e988e5f467c7895') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.228550 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a60b28d8993c5c3e63be4fb03f1576') in 0.006944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.521611 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab48a2db4c40bad33b6cde99e0ad099') in 0.006615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.198470 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18795152cf016c980b2075360c3dd76') in 0.006021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395425 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd84cc1711f34dfee74d906f338f3a9e') in 0.006436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.588597 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4acfaa77b9efb474adee665bda1ec92') in 0.006040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012521 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad82b3c5b74a6b5ce2959c0d5b19ea8') in 0.008264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.631220 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a9ba98d977c5a20e4c9d8f6465844e') in 0.005808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.396451 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30225b47516f7ca36c4468f08301e74') in 0.005627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.636995 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2806e4f97081f0b13eb8ace46d21b23') in 0.006836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.041086 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15018cc7def05ce9e6dd55a0fdb54086') in 0.007943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.046294 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25c59dae73c8009184e7a0668370b53') in 0.005846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.296346 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f10ae798caf534e6fb40043967c3e02') in 0.006254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.419835 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c031d80e98677a57a7659dbc55fbc409') in 0.006851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.270446 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bafe6538a608e9540e492fb6f0be3c') in 0.006144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.017463 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c2e49de6c64db3e222f1aec8ef0902') in 0.005492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.232124 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c0bb40ab393574b613715319e22215') in 0.006423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.262479 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf52dca2741293392a07150edba13f27') in 0.006665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.153686 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb13cccbaca0c4390b523a2e12b06b9') in 0.005511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.438290 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b984573e86c2776844107023895afb49') in 0.011244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.786541 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81da773df0efb1d4fb53d23842aa59d0') in 0.005629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.942988 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb13de3efdffaeb9816495390b01f36') in 0.007635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.788701 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f548e2801b606ad6e7bc3cec422e732') in 0.005685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.409624 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e9b26dee86b2d043c66c69e75f537c') in 0.005467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.123362 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d8665b7cdaa17d02ce839e1309573d') in 0.007597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.793579 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47ab9a012d1cf69002fe2c8a36f9394') in 0.005990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.615707 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de501d9359b18536daad909c20c3ab5') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.830852 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef660f1fc9f4d41fc2bf904f6b01249') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.253398 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4490c4a1368f8a45151e5d26c68c3d56') in 0.006457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.604410 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd075450c9ef220ea14917d9471e8775') in 0.005711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.397967 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f1dbef9e1372080e4e79c3d24a1b39') in 0.006083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.217772 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0a6b1059ea54de740ea5d7174a7418') in 0.004985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.599210 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecd7c8902bd424573aa989b37cf8496') in 0.006695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.412003 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1269ed718fc7b5d00cce0bffa2de5dd') in 0.006141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.981005 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c40dfdbd926eff2257dc82e4bc54f33') in 0.007219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.801891 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289603a52b33245a19a5149f1794056d') in 0.005666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.456983 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8beadb310c8a57cffd2bdebe68f3f6e3') in 0.006043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808518 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148fa98e519ff58ee982544d0d231aa5') in 0.005986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.296568 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513d4d7b7381b4771142a22e449d59ba') in 0.007487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010899 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cacb91032946becb89bba749e5e5bd9') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.199427 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c5000af8d22bbc7e306e11436dc27d') in 0.006477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.424861 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606805f31aebd8e75871d3f34f25cd1f') in 0.006032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804762 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22715ce1822e06534f62054788b294ca') in 0.006917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.462060 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1150c7c052f186f822f652debbf06692') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.816346 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0e82c61e7b7990fe4c3888968951c3') in 0.006387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.178889 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcad0cbc0d95ff8938ed14a77b459fe3') in 0.009896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.048266 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b4341f0c066abf794544821ff6f2c') in 0.010879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.862087 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e87e457a53088d3f4ab463f5c0b501f') in 0.006475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206700 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ce92be70f6bd829aaabb725656e6b') in 0.006745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.649869 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd242383fcb88e71cf9f62d1145128c81') in 0.006506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.472489 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4322db20daaa9e7ec3db7d8cd3c31bf9') in 0.007318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.663177 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1b2cba78c013a5e1a5f697fb2e65fb') in 0.006383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594460 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07ba99bb4615c39b1a8f5a7d8212a2d') in 0.006060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.598484 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5778b87687de9f21fb6f82338a38d8') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.952880 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ef242b7f233c8d22f23b5f6e282d40') in 0.007902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610822 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca5008526424b8584ebfce8f0d0c05') in 0.005976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.658470 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff0d7d04a65c760232dc6922d41e63') in 0.006476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.219584 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6d4d4f83cbe45bc0c2f1fe5f35689c') in 0.006253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.043721 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676cbe641f08922a00908642d262dd29') in 0.007551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.252956 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cc5377792a72218c6ce52dbf69a94d') in 0.006342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.174534 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfa2189b086fa22d9f0c55085c38d13') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389370 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07b3abaf5c71542fbb0182bfb8e0086') in 0.006283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409044 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae4876965ececb6c3a2fdcc27fa05aa') in 0.006108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.152237 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff479a0d62bd749842cf613684a1e23c') in 0.008725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.021150 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58d49623f876728ab1ca1a7202b7a1') in 0.006114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.041611 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347eeb7f63597c33fb468eb2d7b0e28b') in 0.005939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.013267 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfbe562ce50bd1214a545b823ad352') in 0.008072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.939819 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f5586dfe548ab49584471e43a1bc6') in 0.007409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.219353 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eb0540a85564a747f6241f6f3c80de') in 0.006400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.282845 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a0ec5091f6ef3e781e1d74799f3034') in 0.006449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.623937 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e382deb2466c64c3e924bce62b67088') in 0.008279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.867590 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f000e44d596733e9a7a33b3eeea812a2') in 0.006546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.868698 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a8c6d6d351f811927a4c6525b07181') in 0.005925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.860713 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71061efaf51933d0af1107480f9f2f71') in 0.006326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.095095 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee758c69ef4cb9579e1233ffa301010') in 0.007075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.911237 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8d8bcde48dc885bb4ee8bdf84cd7b1') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.407838 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7fa8975c5fd2ef35133695d5c1c924') in 0.007051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.428452 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5bfecc25e91125f0d5eed3884268d') in 0.006185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.884153 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6671b3bc40ccd2324b311a5dfabb56') in 0.006737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.585172 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1032ca0e09e4e203884ad61d27cf3') in 0.006534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.626943 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba64a5b29dd8206fca650c1177f8b7a') in 0.006185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.622429 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a3be146642ba994b413eb96d5bd25c') in 0.006330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596733 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44024633bae2f4cdf946c0fd605c8361') in 0.006016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.315292 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea93fb768ed3e8ad9d9d1890bc408a7') in 0.007252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.015019 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f10a99584ef5138546371eb1e432ae') in 0.006123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.234916 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22e1bc0b99bd3110859f942719754c5') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811128 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbd67811d1fe96cdefe255b4d6f8caa') in 0.006189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.627899 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8012fe9420e249725f0992fa746e37fc') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194811 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94781533d4b229ade0c4b09171f919a') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803701 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac72bcf4b021389f1bb52ca68cf84ab') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213390 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e20749c4a1308a5b52b0b3f978525d') in 0.007098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.286797 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344394a4252627e9ff4a7fc2b554cf55') in 0.006487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.614165 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b80589e942b4d5d3eda8051f16a1a6a') in 0.007855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.421800 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19aec789c5cc9c1d6c5696203989675') in 0.006098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395185 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234dd100180e7593e99ddcd0c48aa30f') in 0.005933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.410005 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2d6d407ac0d6e214aef83ce6672f12') in 0.007333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.027220 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266818231ebc993673745003b8e939ed') in 0.006233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200375 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eaf3505caa4873089082759cd05346') in 0.006209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.485241 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e72fab2911456be450353e1ed8f85e') in 0.006286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.808679 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad5b009b12ef240f0fc681464cf8bc') in 0.007253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.800693 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a58c413b95fba7f8a4fd17bd410140f') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.603547 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc702e67bd791fd994f1857b6984fe84') in 0.006831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600469 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f59c67602769cf137e8a0289fb1783a') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812210 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c961f63e829b396db8c6160218e02fc3') in 0.007193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.704551 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b0e2182620df7bd365fc96afda858d') in 0.006067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799137 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bbc72386f2c3794aebacb7fd03f135') in 0.005986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.621244 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec945dcc18723db611e7ef4d4158a82c') in 0.006139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.599026 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d86140a44dfc6a8eb6bb707ca30d97') in 0.006755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397113 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835ba35157587eb59d0cb8de52ff0cd5') in 0.006257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.607336 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e9af9998712421fe7c460f48a5f2fa') in 0.006255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.868732 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b774f180908d77fc2569755d9858233') in 0.006203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.442205 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c8de016997cb871e2a8f2241d89059') in 0.007809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809557 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cb5badabc3dafe079266e7e3a9f7e5') in 0.006003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.658860 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9bd06bced722082c31e18650f2dc95') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.220670 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a548972cb8c40bb717a2feb8d09e3ce') in 0.005785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.452097 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72894483e5140a616de43827471132a') in 0.008046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.675753 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598b24fad20a9b32bf15d36246544c18') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.807873 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7bd49ea796167b9c2933075a7036e8') in 0.006109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.641613 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7476bc0f94fab229b939d3931f56b8d8') in 0.006373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.264002 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280b741a97497bfd09cac187be9a066') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.072464 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a51234ba9af5751d862cc286c6e926') in 0.006441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.015458 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0324e0d10b52f83ecb50b5ca06fed5bb') in 0.006087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620625 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab030c683cd5bea939e4694a9c63133') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.641173 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8657b90d61ad424f3eb8d0c0bb19ed19') in 0.006826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.148364 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892e32e22f8f9e077f7be90fe8fc6537') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.096137 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732af2eadfd68ae2d45794c463dc02c8') in 0.008698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.384480 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e595ddfa4faaecfdf1f5720f130cdec2') in 0.005965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.400266 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7023831075e456a77a3dcb7995d27d') in 0.006903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.581252 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3400a3da69f5b3d0f0ecab2b359e1b') in 0.006099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.132472 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442d9a010f106e6fe49a2f8a84260b51') in 0.006082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.439748 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0d3580e443b1276a51c51836fd6691') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.827263 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266f838186782d52c42e39a948cbe85f') in 0.007946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.790792 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75b1c6fb777fd3f6965beb127a4976f') in 0.006291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.797038 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab7e38b460e3f8bcc58a456531d30cd') in 0.006088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.469057 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c211def97416055c306ea6938f9ea4ee') in 0.006203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.459416 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa902bf040c39e7edcfa830c52b6ecb9') in 0.006863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.617679 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec070a903c53c17f060c40906c9802b4') in 0.005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.258089 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09b83905940d143ef92b706c4f1c2e4') in 0.006317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.815251 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ea817362d9c39ae661eb3b1d9dc931') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.020777 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236cedd55612ab7b73a384efabb07443') in 0.006829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803634 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fbad90cf4aaefb0ad8137479d98666') in 0.007184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.844044 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e93200009d1f3b6b1ccba7dc8374f') in 0.011292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.656031 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b8143646d735289ac0452446455320') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.845549 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1f986b3a2ceaa766fce3f46c70584') in 0.006800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.848018 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbc805f481c19dddeb4fd26ec697d81') in 0.008145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.701854 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06165016f811d1624c4ec0ae1b64b9df') in 0.006074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.646722 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b351fd53ee9618e3186a2f39051a4f19') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.648829 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a664df7b2f9e85ec952558e3556943b') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.195571 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c7995b88d833bfbd77706bf4e973a4') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.610252 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c666c5b162d50dba466c16e839238b7') in 0.006087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.618547 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b62a3b19f316f355022e09b6515e7bf') in 0.006412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.402318 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70c50a80cdad72e35f96f1833baf4ba') in 0.007249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.369627 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c09bcbbe9fb237978634fb50a2cfab') in 0.006360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.347274 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f14dd611d4b0f214c2b451106439946') in 0.005982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.420592 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d4c4abd03d2440da561544bce13307') in 0.005972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404016 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dcde8e61063875026a24b362b1592d') in 0.006648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.802990 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f904112afa83adada079aab28cd2a2d') in 0.006151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.032887 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd8e09a8265d8fb8077b91e084f2ea4') in 0.006414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.867442 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dadf1fafef9584c7c85c4c729df38c2') in 0.006174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.493338 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1007ac46330f8a1650beffb074d606e') in 0.006544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.853689 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd74685cd00a7b59c4250e38f7f1296') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.616063 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80aa59b4082dd9d95a5c6f7f8c6bfb5') in 0.006038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620252 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856295f62f63b19ee16ec5bc68d4191d') in 0.006176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.807200 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe16a1099c2ac8161664061856ac8b8a') in 0.006070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.422538 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1130f03978ad1041231cc8d3447028') in 0.006849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.157853 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4ca64c6a9f177c26a03a9697335387') in 0.006257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.816341 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ea69bfc56e17f12ce520bdabaa21f0') in 0.005994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397441 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de61c41b9cbbc095e0351203238d79b') in 0.006016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.185517 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fba118ef18c997633854abc49de5c1b') in 0.007090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.689367 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6493a98986bde42399065fafd319584d') in 0.007074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.786010 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3553cc458beaccac2186aeec6f64c0') in 0.006691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392985 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38673d42560171633d9e07e0915687b0') in 0.006465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.100682 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c76918cb19ae6ca8da00b50a3b66707') in 0.006243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.223019 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94b64d08990511085b448f81009b3bd') in 0.008356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.847946 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21827c14c5c2c063335163d42f33f93d') in 0.006011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.678085 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3b629f18bd0a0d814896b61c026e5') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.671369 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8ae429dab15f876412adfe0513a550') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.605372 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7bd066878b0f89d2885a3a32bb0f8b') in 0.007133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594614 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665de644e5cd22f33b7bfb6236e20def') in 0.005884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.984579 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf22095f873958a432fbaed9f588fd41') in 0.006392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.460682 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59115adb6a3831122545b4618ea778a1') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810601 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d71d9f6e1200e24063751217e34d30') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.631023 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655ca0a2e73ce8be6163b4a187672361') in 0.006026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.636121 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9269e71fb429cd5d2baa9fce9738b3e4') in 0.006246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.637430 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63724ef681a6c75fa4567b96e9cf65f9') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.461161 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c9b7e0f4e514e4b3bcadc3ad637ea') in 0.006391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.001487 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e8ddc1998f4bbdbf048f15c8907df3') in 0.006184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.209547 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8056724c3e5600a1e7f78d1a1b9af6') in 0.006373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610710 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947f309ebdb9c3d0bb3aed4e84ca5eab') in 0.006775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.018471 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0483740c073c7479b8e418cd34ffcd0f') in 0.006178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612405 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40feb9bb5a78e5030111152c4f1068e0') in 0.005862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.283577 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adab93839cdc3d556a67cad556f67d1') in 0.006400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394355 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3cfc9afa555df750d25f291cbd9230') in 0.006463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.629553 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3548e78815c9691fcd2fc1705e8493e1') in 0.007364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.659560 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b15467124818e668fca7aec73911993') in 0.006468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.014787 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e242419dc0af88ed66c82d965625cd') in 0.006184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.403386 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fabb45aaae0bb71835a76668ca58383') in 0.006335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.713972 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c17ba5021e98d8cf8986931f5663bc') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.851353 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afdf75289ce159b5ec1f5d19905856e') in 0.006161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.414745 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1999fb0c17828500305b12c3e684c25') in 0.005886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.616609 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc04f5641bc3a223961e81e0a3ecb93') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803979 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b3b20f4c1e7627c5e9ea59c820838') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.471446 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064369bd9ea8697cdacb376daf53fc33') in 0.008410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.034865 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8d6ed89f674d07915a0d38ea1d0dc') in 0.006160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.441731 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5886fa006c5c0333cd2756f6f5459a12') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616286 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d53f3249098ca4fdc59379de8a14ca') in 0.008372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.172644 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2376522d23d4eab7bf8813e76a497f8') in 0.006588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.096556 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affa4948a29beeb7f7e5c8bc5ea2f908') in 0.006175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395411 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84daa3b6e8431ff455d44693d72bd99') in 0.006656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.393040 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ec4e4c409164122c9d92c8e509fc51') in 0.006875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.657456 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde4f01befe5cad9e680c85e9b7a22f') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.408557 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b5df7ec06fa647c6f7433d3b66038') in 0.006148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.252193 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49a7ab93a8f8275f21912d01d723a5d') in 0.006352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.640639 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e0caf4ed7f21270fc2b4354d93d38e') in 0.008029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.431088 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fc6d837a040021dfc2c0664d48c312') in 0.006306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606858 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582782b8bc04e90331a1cfdb7e23661e') in 0.006262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.221877 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3415da1f17ba434ff41c035bf3f969c2') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.611525 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8623834bc8d52917eb697338629588') in 0.007127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.996823 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e56abf9055c7350aeaa07554e1a84a') in 0.006023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.340733 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035db2429f5a4ff942503bc62dbbf175') in 0.005840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208681 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dd6f825cffaf24ef7234fd0a49cd0f') in 0.005905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419096 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2811cee707e334c30e9cb7f6758fd641') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193153 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7365d85e46ea66910ecbab3da74c4f5') in 0.006043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.558250 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c873cdcc2c66f854c4604271499dfd') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.667478 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1162763b31cf051e0db24564ce6d3aa7') in 0.006312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.658304 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55857cfe1223cb358c7a2375af8a90f') in 0.008275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.841618 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f282326a294be513ea37946d3b42c5e3') in 0.007644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597800 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41dd15e3d8269e65a3e73b46b4a1a25') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.685567 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262cd84ae69a283aa3ad8b56da2d67bd') in 0.006353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.226523 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663d1143870bc2333cfe244a07bc9d0') in 0.007023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.447144 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e33dbbeb1e7217382df9d8f53bf76b') in 0.006046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.828017 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aa45fb5377d36bd496570c18977d51') in 0.005892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.222025 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8798b8898f568a768ca13fe0634dd360') in 0.006241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.622341 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a323d6e73a08ec20a9c06aacd3b3f766') in 0.006955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825610 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ebd0bf109da61cd3544f492fefbbf') in 0.006085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006778 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a638f77640f35bf8e371ca58e35d39e1') in 0.005922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794157 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e325cb72427a0a5cf900acf7097c0830') in 0.005929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.513638 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511f38d84f52fb651ec55330a321cdb7') in 0.009442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179883 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be197ac02b600e55ca7813d14fdcddc') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.063107 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b56dc0a199c12d6ef78afef9a9464') in 0.006760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598450 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a055389a7e045f6f39167e9f3bd57b7') in 0.006193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.712955 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e875f60eb50844930eb781785ac4d2') in 0.006961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.418100 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63362f699a044c7480b6771fa8f1f917') in 0.005701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.815341 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0c7d77bc1481372af7215bd3b96c0e') in 0.006224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.818711 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba93623226eb8dc581059fe990cd2fd1') in 0.005704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.257434 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f304bf64556fd4cc3ec2183d55ce473') in 0.006945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.420937 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a82aa165858233463a346ca374d5646') in 0.005982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216544 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035601458db6e548e8e7905daf48d446') in 0.005901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.243134 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffc7788c075c3951308da38c203a524') in 0.006465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596909 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2a7434acd239c33848fcf5a43d7dca') in 0.005706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205057 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdd77a5da5fabc46dc0bcd18237d652') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.411965 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb29ebd3123e4f2c103499fe5ed72e2') in 0.005683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193672 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1721782edc678f690880bb70918139f') in 0.006441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.678516 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b28f49d7eeedb7a305eb230ec658f38') in 0.005546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.406493 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd698f9d6c0231c5724bb25b1ffee5473') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188244 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c903b21dfa53ed258478548efd76f7') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.295266 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b8fafaa45098e86fb13fdb4be0d0ab') in 0.005570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.190884 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9177159ee2f1e4c15c124819d48543e3') in 0.006021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.098674 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6694810680f553cef6073355f968fd') in 0.005959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.448324 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa619152b874b704c029dc63e254618') in 0.007914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.048736 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ee804e81f5f039288069b8c46230e') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.401423 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80a3a70b4dd55254b7d57392009b34b') in 0.005897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.825757 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca86a11f6e94ba77bd5a8948c597fcc') in 0.005831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.434402 seconds.
+  path: Assets/Resources/Cloud Layers/Tornado.prefab
+  artifactKey: Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cloud Layers/Tornado.prefab using Guid(8af70afcbbd730d4391c0a71559ed3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec9daa0b601c93f4fa091f5336e890') in 0.006164 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1107ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (802ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (333ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (256ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (291ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.8 MB.
+System memory in use before: 191.4 MB.
+System memory in use after: 191.5 MB.
 
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3280.
-Total: 3.528300 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.111400 ms MarkObjects: 3.044400 ms  DeleteObjects: 0.177000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002397 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (798ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.8 MB.
-
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3282.
-Total: 3.724900 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.175900 ms MarkObjects: 3.153900 ms  DeleteObjects: 0.171200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.075 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1076ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (345ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.8 MB.
-
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3284.
-Total: 3.277100 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 2.758900 ms  DeleteObjects: 0.166700 ms)
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3283.
+Total: 4.373500 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.185900 ms MarkObjects: 3.776900 ms  DeleteObjects: 0.187900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

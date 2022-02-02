@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\setMouseSensitivity.cs" />
      <Compile Include="Assets\Scripts\cyclematerials.cs" />
      <Compile Include="Assets\Scripts\gameLogic.cs" />
+     <Compile Include="Assets\Scripts\pauseMenu.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\Scripts\Object AI\autoColorer.cs" />
@@ -90,7 +91,6 @@
      <Compile Include="Assets\Scripts\Object AI\invisCheckpoint.cs" />
      <Compile Include="Assets\Scripts\buttonLinkToWebsite.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
-     <Compile Include="Assets\Scripts\pauseMenu.cs" />
      <None Include="Assets\Scripts\customleveldetails.txt" />
      <None Include="Assets\models\Hamsterball (3ds max)\_ource Meshes\flag\FlagDeformationReverse.shader" />
      <None Include="Assets\models\Hamsterball (3ds max)\_ource Meshes\flag\FlagDeformation.shader" />
